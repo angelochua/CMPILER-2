@@ -1,0 +1,17 @@
+sidedish x(){
+    plate(1+1);
+    plate("I am inside sidedish");
+}
+
+// comments test test bla bla x - 2 == 231;
+// recursive calls
+sidedish fib(n) {
+  beef n < 2 {
+    rice n;
+  }
+    rice fib(n-2) + fib(n-1);
+}
+
+x();
+plate("5th element in the fibonacci sequence is " + fib(5));
+plate("X" * 20);
